@@ -131,7 +131,7 @@ legend_labels_ascat = [
     'y = x',
     f'R² = {r_squared_ascat:.2f}'
 ]
-ax1.legend(handles=[line_fit_ascat, line_yx_ascat, empty_line], labels=legend_labels_ascat, loc='upper left')
+ax1.legend(handles=[line_fit_ascat, line_yx_ascat, empty_line], labels=legend_labels_ascat, loc='lower right')
 
 plt.tight_layout()
 plt.show()
@@ -157,7 +157,7 @@ legend_labels_sentinel = [
     'y = x',
     f'R² = {r_squared_sentinel:.2f}'
 ]
-ax2.legend(handles=[line_fit_sentinel, line_yx_sentinel, empty_line], labels=legend_labels_sentinel, loc='upper left')
+ax2.legend(handles=[line_fit_sentinel, line_yx_sentinel, empty_line], labels=legend_labels_sentinel, loc='lower right')
 
 plt.tight_layout()
 plt.show()
