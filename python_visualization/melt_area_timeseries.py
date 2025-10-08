@@ -143,13 +143,13 @@ for i, year in enumerate(years):
             Line2D([0], [0], color=style_dict['Sentinel-1']['color'], marker=style_dict['Sentinel-1']['marker'],
                    linestyle='None', label=style_dict['Sentinel-1']['label'], markersize=8)
         ]
-        ax.legend(handles=legend_elements, loc='upper right', bbox_to_anchor=(0.92, 1.0),
+        ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(0.0, 1.0),
                   fontsize=20, frameon=True, fancybox=True,
-                  edgecolor='black', markerscale=1.6)
+                  edgecolor='black', markerscale=2.0)
 
 axes[-1].set_xlabel('Date', fontsize=24)
 
-fig.subplots_adjust(left=0.12, right=0.98, bottom=0.08, top=0.96, hspace=0.12)
+fig.subplots_adjust(left=0.12, right=0.98, bottom=0.08, top=0.96, hspace=0.20)
 fig.savefig('melt_area_vertical_boxed.png', dpi=1200, bbox_inches='tight', pad_inches=0.2)
 plt.show()
 
