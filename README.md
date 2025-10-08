@@ -20,8 +20,8 @@ The method follows the principles of the FSDAF (Flexible Spatiotemporal Data Fus
 Python scripts are provided for data visualization and performance evaluation
 
 ## 5. Data Sources
-Sentinel-1 GRD data: Copernicus Data Space Ecosystem (https://ftp.scp.byu.edu/data/ascat/)
-ASCAT data: Brigham Young University (BYU) (https://browser.dataspace.copernicus.eu/)
+Sentinel-1 GRD data: Copernicus Data Space Ecosystem (https://browser.dataspace.copernicus.eu/);
+ASCAT data: Brigham Young University (BYU) (https://ftp.scp.byu.edu/data/ascat/)).
 
 ## 6. Contact
 
