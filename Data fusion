@@ -2,10 +2,10 @@ SRBDF Configuration
 Spatiotemporal Radar Backscatter Data Fusion for Antarctic Ice Shelves
 
 Methodological Basis:
-- Core Framework: FSDAF (Zhu et al., 2016, A flexible spatiotemporal method for fusing satellite images with different resolutions. Remote Sens. Environ. 172, 165–177. https://doi.org/10.1016/j.rse.2015.11.016.)
-- Present Work: Migration to active microwave domain
-- Scientific Application: Antarctic Ice Shelves surface melt monitoring
-- Technical Adaptation: Parameter optimization for radar backscatter
+- Core framework: FSDAF (Zhu et al., 2016, A flexible spatiotemporal method for fusing satellite images with different resolutions. Remote Sens. Environ. 172, 165–177. https://doi.org/10.1016/j.rse.2015.11.016.)
+- Present work: Migration to active microwave data
+- Scientific application: Antarctic Ice Shelves surface melt monitoring
+- Technical adaptation: Parameter optimization for radar backscatter
 
 # Spatial parameters
 w = 10                    # Half window size (full window = 2*w + 1 = 21)
