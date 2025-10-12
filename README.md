@@ -1,6 +1,6 @@
 # SRBDF
 Spatiotemporal Radar Backscatter Data Fusion (SRBDF) framework for monitoring surface melt on Antarctic ice shelves.
-This repository provides the codes for preprocessing, visualization and validation of the SRBDF framework. The framework integrates Sentinel-1 and ASCAT backscatter data to generate high-resolution daily surface melt products over Antarctic ice shelves.
+This repository provides the codes for the SRBDF framework. The framework integrates Sentinel-1 and ASCAT backscatter data to generate high-resolution daily surface melt products over Antarctic ice shelves.
 
 ## 1. Introduction
 The SRBDF framework aims to enhance the spatial and temporal resolution of radar backscatter observations for accurate monitoring of Antarctic surface melt.
